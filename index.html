@@ -556,7 +556,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			const icon = question.querySelector(".icon");
 
 			answer.classList.toggle("active");
-			icon.textContent = answer.classList.contains("active") "+";
+			icon.textContent = answer.classList.contains("active") ? "+" : "+";
 
 		});
 	});
